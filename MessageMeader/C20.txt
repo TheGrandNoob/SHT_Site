@@ -1,0 +1,37 @@
+<style>
+.Contents
+{
+    border:1px solid #aaaaaa;
+    width:100%;
+    height:20%; 
+}
+.Contents:hover
+{
+    border:4px solid #aaaaaa;
+    background-color:#dddddd;
+}
+</style>
+        <div id = "Content1" class = "Contents">
+           <div style = "font-size:3vh;margin-left:1vh">Казеев Степан Антонович</div>
+        </div>
+        <div id = "Content2" class = "Contents">
+           <div style = "font-size:3vh;margin-left:1vh">Казеев Алексадр Степанович </div>
+        </div>
+        <div id = "Content3" class = "Contents">
+           <div style = "font-size:3vh;margin-left:1vh">Миляков Андрей Тарасович</div>
+        </div>
+        <script>
+            $("#Content1").click(function()
+            {
+                window.location.replace("Kazeev1.html");
+            });
+            $("#Content2").click(function()
+            {
+                window.location.replace("Казеевы4.html");
+            });
+            $("#Content3").click(function()
+            {
+                window.location.replace("Milakov.html");
+            });
+        </script>
+</div>

@@ -1,0 +1,23 @@
+<style>
+.Contents
+{
+    border:1px solid #aaaaaa;
+    width:100%;
+    height:20%; 
+}
+.Contents:hover
+{
+    border:4px solid #aaaaaa;
+    background-color:#dddddd;
+}
+</style>
+        <div id = "Content1" class = "Contents">
+           <div style = "font-size:3vh;margin-left:1vh">Казеев Николай Степанович</div>
+        </div>
+        <script>
+            $("#Content1").click(function()
+            {
+                window.location.replace("Казеевы3.html");
+            });
+        </script>
+</div>

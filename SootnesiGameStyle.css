@@ -1,0 +1,40 @@
+body
+{
+    background-color: black;
+    margin: 0em;
+}
+.block
+{
+    width: 10em;
+    height: 10em;
+}
+.photo1
+{
+    background-image: url(k.jpg);
+    background-size: cover;
+    margin-left: 0.5em;
+    width: 9em;
+    height: 9em;
+}
+.photo2
+{
+    background-image: url(2.jpg);
+    background-size: cover;
+    margin-left: 0.5em;
+    width: 9em;
+    height: 9em;
+}
+.table
+{
+    position:center;
+}
+.content
+{
+    background-color: white;
+    width: 60%;
+    height: 300%;
+    margin-left:20%;
+    margin-top:30%;
+    
+}
+

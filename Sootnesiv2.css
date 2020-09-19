@@ -1,0 +1,106 @@
+body
+{
+    margin:0px;
+    background-color: yellow;
+}
+.header
+{
+    z-index:10000000;
+    min-width:100%;
+    min-height:5%;
+    background-color:green;
+    position: fixed;
+}
+.GoMain
+{
+    width:5%;
+    height:5%;
+    background-color:chartreuse;
+    color: white;
+    outline: none;
+    transition: 0.2s;
+    position:fixed;
+}
+.content
+{
+    position: absolute;
+    top:30%;
+    left:25%;
+    width:auto;
+    height:auto;
+    background-color:white;
+}
+.Table
+{
+    margin-top:15%;
+    
+}
+.Elemi
+{
+    position: sticky;
+    left:30vh;
+    border:1px solid black;
+    width:30vh;
+    height:30vh;
+}
+.Elemb
+{
+    position: sticky;
+    left:30vh;
+    border:1px solid black;
+    width:30vh;
+    height:30vh;
+}
+#el1
+{
+    
+}
+#el2
+{
+    background-image:url("PhotosN/CSAP.jpg") ;
+    background-size: cover;
+}
+#el3
+{
+    
+}
+#el4
+{
+    background-image:url("PhotosN/XSC.jpg") ;
+    background-size: cover;
+}
+#el5
+{
+    
+}
+#el6
+{
+    background-image:url("PhotosN/BLJL.jpg") ;
+    background-size: cover;
+}
+#el7
+{
+   
+}
+#el8
+{
+    background-image:url("PhotosN/KO.jpg") ;
+    background-size: cover;
+}
+#el9
+{
+
+}
+#el10
+{
+    background-image:url("PhotosN/NGU.jpg") ;
+    background-size: cover;
+}
+
+.footer
+{
+    width:100px;
+    height:100px;
+    background-color: white;
+    margin-top:10%;
+}

@@ -1,0 +1,176 @@
+.body
+        {
+            margin: 0px;
+        }
+        .map
+        {
+            margin-left: 30vh;
+            margin-top: 10vh;
+            position:absolute;
+        }
+        .TextA
+        {
+            fill:white;
+            z-index: 11;
+        }
+        .tiles:hover
+        {
+            z-index: 10000;
+            fill: #4169E1;
+        }
+        .tiles
+        {
+            z-index: 1000;
+            fill: #05316D;
+        }
+        .image 
+        {
+            z-index: 4;
+            width: 20vh;
+            height: 20vh;
+            position: relative;
+            background-image: url(Gerb.bmp);
+            background-size: contain;
+            background-position: center;
+            margin-right: 0px;
+            background-repeat: no-repeat;
+        }
+        .MainText
+        {
+            width: 20vh;
+            height: 20vh;
+            position:absolute;
+            margin-left: 20vh;
+            background-color: wheat;
+        }
+        .Panel
+        {
+            width: 20vh;
+            height: 20vh;
+            margin-top: 0px;
+            background-color: #eeeeee;
+        }
+        
+        .popUpMenuG
+        {
+            content: '';
+            width: 20vh;
+            height: 40vh;
+            background-color: #eeeeee;
+            position: fixed;
+            border: 1px solid #bbbbbb;
+            float: left;
+            overflow: auto; 
+            margin-left: 20vh;
+            opacity: 1;
+        }
+        p1
+        {
+            font-size:7vh;
+        }
+        p2
+        {
+            font-size: 4vh;
+        }
+        p3
+        {
+            font-size: 3vh;
+        }
+        .ZamSearch
+        {
+            width: 30vh;
+            height: 15vh;
+        }
+        #SearcPO:hover
+        {
+            background-color: #bbbbbb;  
+        }
+        .searchElem
+        {
+            font-size: 3vh;
+        }
+        .searchElem:hover
+        {
+            background-color: #bbbbbb;
+        }
+        .searchElemM
+        {
+            font-size: 3vh;
+        }
+        .searchElemM:hover
+        {
+            background-color: #bbbbbb;
+        }
+        #Hint
+        {
+            display:none;
+            position:absolute;
+            border:1px solid #ccc;
+            padding:0.5vh;
+            background:#bbbbbb;
+            border-radius:5px;
+        }
+        .popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.ModalHead
+{
+	width: 10vh;
+	margin-left:40%;
+    text-align: center;
+    text-transform: capitalize;
+	font-size: x-large;
+	font-family: fantasy;
+	position: relative;
+}
+#ModalWindow
+{
+    display:none;
+}
+#ModalWindow
+{
+    border:2px;
+	position: absolute;
+    width: 15%;;
+    height: 75%;
+    background-color:white;
+    z-index: 99999;
+    border-radius: 1vh;
+    opacity: 1;
+	position: fixed;
+    padding:1.5vh;
+	box-shadow: 0px 0px 130px -5px rgba(181,181,181,1);
+
+}
+.modalMeader
+{
+    border: 2px;
+    border-color: black;
+    width: 100px ;
+    height: 100px;
+}
+.popUpMenuM
+{
+    font-size: 3vh;
+    content: '';
+    width: 20vh;
+    height: 40vh;
+    background-color: #eeeeee;
+    position: fixed;
+    border: 1px solid #bbbbbb;
+    float: left;
+    overflow: scroll; 
+    margin-left: 20vh;
+    opacity: 1;
+}

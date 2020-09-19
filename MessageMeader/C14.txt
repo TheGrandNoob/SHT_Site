@@ -1,0 +1,11 @@
+<style>
+.text
+{
+    font-size:5vh;
+    padding-top:20%;
+    text-align:center;
+}
+</style>
+<div class = "text">
+    Меценаты отсутствуют
+</div>
